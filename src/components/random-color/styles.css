@@ -1,0 +1,27 @@
+.container {
+  /* padding: 10px; */
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.color-text {
+  color: #fff;
+  font-size: 60px;
+  align-self: center;
+  margin: auto;
+}
+
+.btn-bar {
+  display: flex;
+  flex-direction: row;
+  /* background-color: antiquewhite; */
+  justify-content: center;
+  gap: 10px;
+}
+.btn-bar button {
+  padding: 5px;
+}
